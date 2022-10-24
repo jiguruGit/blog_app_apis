@@ -2,8 +2,8 @@ package com.jiguru.vamshi.repositories;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import com.jiguru.vamshi.entities.User;
+import com.jiguru.vamshi.entities.Users;
 
-public interface UserRepo extends JpaRepository<User, Integer>{
+public interface UserRepo extends JpaRepository<Users, Integer>{
 
 }

@@ -1,5 +1,7 @@
 package com.jiguru.vamshi.payloads;
 
+import com.jiguru.vamshi.entities.UserTypes;
+
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
@@ -9,9 +11,12 @@ import lombok.Setter;
 @Setter
 public class UserDto {
 	
-	private int id;
+
+	private Long  id;
 	private String name;
-	private String email;	
+	private int age;
+	private String dateOfBirth;
+	private String userName;
 	private String Password;
-	private String about;
+	private  UserTypes userTypes;
 }
